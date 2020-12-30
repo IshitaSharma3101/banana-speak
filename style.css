@@ -6,7 +6,7 @@ textarea {
     padding: 1rem;
 }
 
-#output{
+#output {
     border: 1px black solid;
     height: 10vh;
     display: block;
