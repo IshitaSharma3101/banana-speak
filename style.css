@@ -1,16 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Langar&display=swap');
+
+
+body {
+    margin: 0rem;
+    background-color: #FEFCE8
+}
+
 textarea {
     width: 80%;
     height: 10vh;
     display: block;
-    margin: 1rem;
+    margin: auto;
     padding: 1rem;
+    background-color: #FEFCE8;
+    font-family: 'Dancing Script', cursive;
+    font-size: larger;
 }
+
+
+.center {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 3rem;
+}
+
 
 #output {
     border: 1px black solid;
     height: 10vh;
-    display: block;
-    margin: 1rem;
     padding: 1rem;
-    width: 80%;
+    max-width: 80%;
+    margin: auto;
+}
+
+.heading {
+    margin: 0rem;
+    padding: 0.25rem;
+    background-color: #FACC15;
+    border-top-right-radius: 4rem;
+    font-family: 'Langar', cursive;
+    font-size: x-large;
+    color: #78350F;
+}
+
+.heading h1 {
+    display: block;
+    text-align: center;
+}
+
+.btn-div {
+    max-width: 600px;
+    margin: 2.75rem
+}
+
+.btn {
+    display: block;
+    margin: auto;
+    padding: 0.5rem 5rem;
+    font-family: 'Langar', cursive;
+    font-size: 1.2rem;
+    background-color: #713F12;
+    border-radius: 5rem;
+    border-style: outset;
+    color: #FACC15
 }
