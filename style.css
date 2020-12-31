@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Langar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
 
 
 body {
@@ -15,7 +16,12 @@ textarea {
     background-color: #FEFCE8;
     font-family: 'Dancing Script', cursive;
     font-size: larger;
+    border: solid brown;
+    resize: none;
+    border-radius: 10px;
+    margin-top: -1rem;
 }
+
 
 
 .center {
@@ -31,6 +37,10 @@ textarea {
     padding: 1rem;
     max-width: 80%;
     margin: auto;
+    font-family: 'Dancing Script', cursive;
+    font-size: larger;
+    border: solid brown;
+    border-radius: 10px;
 }
 
 .heading {
@@ -60,7 +70,22 @@ textarea {
     font-family: 'Langar', cursive;
     font-size: 1.2rem;
     background-color: #713F12;
-    border-radius: 5rem;
+    border-radius: 50%;
     border-style: outset;
-    color: #FACC15
+    color: #FACC15;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 0;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.head-output {
+    font-size: x-large;
+    margin: 4rem 0rem 1rem 2.6rem;
+    font-family: 'Redressed', cursive;
 }
