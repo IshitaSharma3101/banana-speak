@@ -100,3 +100,9 @@ button:hover {
     font-family: 'Langar', cursive;
     text-align: center;
 }
+
+p{
+    margin: auto;
+    max-width: 640px;
+    align-content: center
+}
