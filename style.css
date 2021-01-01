@@ -4,7 +4,7 @@
 
 body {
     margin: 0rem;
-    background-color: #FEFCE8
+    background-color: #FEFCE8;
 }
 
 textarea {
@@ -16,13 +16,15 @@ textarea {
     background-color: #FEFCE8;
     font-family: 'Dancing Script', cursive;
     font-size: larger;
-    border: solid brown;
+    border: solid;
     resize: none;
     border-radius: 10px;
     margin-top: -1rem;
 }
 
-
+textarea:focus{
+    outline: none;
+}
 
 .center {
     max-width: 600px;
@@ -39,18 +41,18 @@ textarea {
     margin: auto;
     font-family: 'Dancing Script', cursive;
     font-size: larger;
-    border: solid brown;
+    border: solid;
     border-radius: 10px;
+    margin-bottom: 2rem;
 }
 
 .heading {
     margin: 0rem;
-    padding: 0.25rem;
+    padding: 0.01rem;
     background-color: #FACC15;
     border-top-right-radius: 4rem;
     font-family: 'Langar', cursive;
     font-size: x-large;
-    color: #78350F;
 }
 
 .heading h1 {
@@ -69,7 +71,7 @@ textarea {
     padding: 0.5rem 5rem;
     font-family: 'Langar', cursive;
     font-size: 1.2rem;
-    background-color: #713F12;
+    background-color: rgba(0, 0, 0, 0.842);
     border-radius: 50%;
     border-style: outset;
     color: #FACC15;
@@ -85,7 +87,16 @@ button:hover {
 }
 
 .head-output {
-    font-size: x-large;
-    margin: 4rem 0rem 1rem 2.6rem;
+    font-size: large;
+    margin: 3rem 0rem 1rem 2.6rem;
     font-family: 'Redressed', cursive;
+}
+
+.footer{
+    margin: 0rem;
+    padding: 0.01rem;
+    background-color: #FACC15;
+    border-bottom-left-radius: 4rem;
+    font-family: 'Langar', cursive;
+    text-align: center;
 }
